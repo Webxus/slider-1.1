@@ -1,3 +1,9 @@
-const slider = document.getElementById('slider')['src'];
+const searchElement = document.getElementById('slider');
 
-console.log(slider);
+const searchImg = ['i/airmax-jump.png', 'i/airmax-on-foot.png', 'i/airmax-playground.png', 'i/airmax-top-view.png', 'i/airmax.png'];
+
+setInterval(() => {
+  for (searchElement.src of searchImg) {
+  	searchElement.src;
+  }
+}, 2000)
