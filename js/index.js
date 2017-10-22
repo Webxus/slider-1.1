@@ -7,6 +7,8 @@ setInterval(() => {
 	if (i < searchImg.length) {
 		searchElement.src = searchImg[i];
 		i++;
+	} else {
+		i = 0;
 	}
 }, 1000)
 
