@@ -5,8 +5,7 @@ const searchImg = ['i/airmax-jump.png', 'i/airmax-on-foot.png', 'i/airmax-playgr
 let i = 0;
 setInterval(() => {
 	if (i < searchImg.length) {
-		searchElement.src = searchImg[i];
-		i++;
+		searchElement.src = searchImg[i++];
 	} else {
 		i = 0;
 	}
