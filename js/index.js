@@ -1,6 +1,6 @@
 const searchElement = document.getElementById('slider');
 
-const searchImg = ['i/airmax-jump.png', 'i/airmax-on-foot.png', 'i/airmax-playground.png', 'i/airmax-top-view.png', 'i/airmax.png', 'i/spinner.gif'];
+const searchImg = ['i/airmax-jump.png', 'i/airmax-on-foot.png', 'i/airmax-playground.png', 'i/airmax-top-view.png', 'i/airmax.png'];
 
 let i = 0;
 setInterval(() => {
@@ -9,4 +9,4 @@ setInterval(() => {
 	} else {
 		i = 0;
 	}
-}, 5000)
+}, 1000)
